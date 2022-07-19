@@ -1,0 +1,23 @@
+.navitems{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    /* background-color: white; */
+}
+.navdiv{
+    display:flex;
+    padding: 1.5rem 3rem;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 2px white solid;
+    /* background-color: white; */
+}
+*{
+    margin: 0;
+    /* background-color: #f9f9f7; */
+}
+.Navbutton{
+    display: flex;
+    gap:1rem;
+    padding: 0px 3rem 0px 4rem;
+}
