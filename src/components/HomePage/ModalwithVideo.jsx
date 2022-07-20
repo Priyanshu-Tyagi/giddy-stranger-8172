@@ -15,7 +15,7 @@ export default function ModalWithVideo() {
   return (
     <div>
         <div className="vidbg">
-        <Button onClick={onOpen} top="45%" left="47%">
+        <Button onClick={onOpen} position="none" marginTop="25%" marginLeft="47%">
         <img
           width="50%"
           src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"

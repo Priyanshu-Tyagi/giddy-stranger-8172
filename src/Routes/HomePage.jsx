@@ -1,5 +1,7 @@
 import Footer from "../components/Footer";
 import Challenge from "../components/HomePage/ChallengeSolver";
+import CreateFreeAccount from "../components/HomePage/CreateFreeAccount";
+import FrequentlyAskedQuestions from "../components/HomePage/FrequentlyAskedQuestions";
 import Intro from "../components/HomePage/Intro";
 import Uses from "../components/HomePage/MailtrapUses";
 import ModalWithVideo from "../components/HomePage/ModalwithVideo";
@@ -31,8 +33,19 @@ export default function HomePage(){
             <TrustedBy/>
             <br/>
             <br/>
-            <br/>            
+            <br/>   
+            <CreateFreeAccount/>
+            <br/>
+            <br/>
+            <br/>  
+            <FrequentlyAskedQuestions/>
+            <br/>
+            <br/>
+            <br/>           
             <Footer/>
+            <br/>
+            <br/>
+            <br/> 
         </div>
     )
 }
