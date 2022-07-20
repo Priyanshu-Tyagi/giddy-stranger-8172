@@ -12,9 +12,9 @@ export default function Footer() {
       <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         <GridItem>
           <Stack>
-            <Text fontSize="sm" paddingLeft="2.7rem">
+            {/* <Text fontSize="sm" paddingLeft="2.7rem">
               <br />
-            </Text>
+            </Text> */}
             <Text fontSize="xs" paddingLeft="2.7rem">
               <img
                 src="https://drive.google.com/uc?export=view&id=1cunZ8C5ljNPSQy4ajKnAZbpeYcXQe2tE"
@@ -135,11 +135,11 @@ export default function Footer() {
             <Text fontSize="sm" paddingLeft="2.7rem">
               email: support@mailtrap.io
             </Text>
-            <Text fontSize="sm" paddingLeft="2.7rem">
+            {/* <Text fontSize="sm" paddingLeft="2.7rem">
               <br />
-            </Text>
+            </Text> */}
             <Text fontSize="sm" paddingLeft="2.7rem">
-              <img src="https://drive.google.com/uc?export=view&id=1mtphbxfyGal2Rv4BhvXB3ln5S3gSGHAv" alt="" />
+              <img width="55%" src="https://drive.google.com/uc?export=view&id=1mtphbxfyGal2Rv4BhvXB3ln5S3gSGHAv" alt="" />
               {/* https://drive.google.com/file/d/1mtphbxfyGal2Rv4BhvXB3ln5S3gSGHAv/view?usp=sharing */}
             </Text>
             <Text fontSize="sm" paddingLeft="2.7rem">

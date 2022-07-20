@@ -21,7 +21,7 @@ export default function Navbar() {
     onClose: onClose1,
   } = useDisclosure();
   return (
-    <div>
+    <div style={{position:"sticky", top:"0"}}>
       <div>
         <Text fontSize="xl" textAlign="center" padding="1.2rem 0px" bg="#1a2e44" color="white" fontWeight="800">Stand with Ukraine 🇺🇦 Donate to support</Text>
       </div>
@@ -44,7 +44,7 @@ export default function Navbar() {
                 py={[1, 2, 2]}
                 px={4}
                 borderRadius={5}
-                _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+                // _hover={{ color: useColorModeValue("gray.100", "gray.700") }}
                 aria-label="Courses"
                 fontWeight="normal"
                 onMouseEnter={onOpen1}
@@ -78,7 +78,7 @@ export default function Navbar() {
                 py={[1, 2, 2]}
                 px={4}
                 borderRadius={5}
-                _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+                _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
                 aria-label="Courses"
                 fontWeight="normal"
               >
@@ -95,7 +95,7 @@ export default function Navbar() {
                 py={[1, 2, 2]}
                 px={4}
                 borderRadius={5}
-                _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+                _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
                 aria-label="Courses"
                 fontWeight="normal"
               >
@@ -112,7 +112,7 @@ export default function Navbar() {
                 py={[1, 2, 2]}
                 px={4}
                 borderRadius={5}
-                _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+                // _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
                 aria-label="Courses"
                 fontWeight="normal"
                 onMouseEnter={onOpen}
@@ -139,7 +139,8 @@ export default function Navbar() {
 
           <div className="Navbutton">
             <Button colorScheme="black" padding="0px 18px" variant="outline">
-              Button
+            <NavLink to="/log-in">Log In</NavLink>
+              
             </Button>
             <Button
               colorScheme="whatsapp"
@@ -147,7 +148,7 @@ export default function Navbar() {
               _hover={{ bg: useColorModeValue("whatsapp.400", "whatsapp.100") }}
               variant="solid"
             >
-              Button
+              <NavLink to="/sign-up">Sign Up</NavLink>
             </Button>
           </div>
         </div>

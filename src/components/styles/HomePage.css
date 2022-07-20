@@ -1,0 +1,25 @@
+.introimgdiv{
+    display: flex;
+    width: 60%;
+    margin:auto;
+    justify-content: space-between;
+}
+.introimg{
+    width: 13%;
+}
+.vidbg{
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    background-image: url(https://mailtrap.io/wp-content/uploads/2021/05/img__homepage-964x574.png);
+    background-size: 100% 100%;
+}
+.trustedbyimgdiv{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content: space-between;
+}
+.trustedbyimg{
+    width: 8%;
+}

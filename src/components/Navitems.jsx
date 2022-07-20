@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export function E1() {
   return (
     <div style={{ display: "flex" }}>
@@ -69,28 +71,32 @@ export function R1() {
   }
   export function R2() {
     return (
-      <div style={{ display: "flex" }}>
-        <div>
-          <img width="40px" src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-08.svg" />
+      <NavLink to="/case-studies">
+        <div style={{ display: "flex" }}>
+          <div>
+            <img width="40px" src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-08.svg" />
+          </div>
+          <div>
+            <div>Case Studies</div>
+            <div>Success stories of our customers</div>
+          </div>
         </div>
-        <div>
-          <div>Case Studies</div>
-          <div>Success stories of our customers</div>
-        </div>
-      </div>
+      </NavLink>
     );
   }
   export function R3() {
     return (
-      <div style={{ display: "flex" }}>
-        <div>
-          <img width="40px" src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-07.svg" />
+      <NavLink to="/blog">
+        <div style={{ display: "flex" }}>
+          <div>
+            <img width="40px" src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-07.svg" />
+          </div>
+          <div>
+            <div>Blog</div>
+            <div>The best content about emails</div>
+          </div>
         </div>
-        <div>
-          <div>Blog</div>
-          <div>The best content about emails</div>
-        </div>
-      </div>
+      </NavLink>
     );
   }
   export function R4() {
