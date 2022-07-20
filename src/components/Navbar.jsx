@@ -21,7 +21,7 @@ export default function Navbar() {
     onClose: onClose1,
   } = useDisclosure();
   return (
-    <div style={{position:"sticky", top:"0"}}>
+    <div style={{position:"sticky", top:"0",zIndex:"150"}}>
       <div>
         <Text fontSize="xl" textAlign="center" padding="1.2rem 0px" bg="#1a2e44" color="white" fontWeight="800">Stand with Ukraine 🇺🇦 Donate to support</Text>
       </div>

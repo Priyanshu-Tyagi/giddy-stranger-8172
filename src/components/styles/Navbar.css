@@ -9,9 +9,9 @@
     padding: 1rem 3rem;
     justify-content:space-between;
     align-items:center;
-    -webkit-box-shadow: -2px -1px 15px 7px rgba(29, 28, 28, 0.377);
-    -moz-box-shadow: -3px -2px 14px 14px rgba(29, 28, 28, 0.377);
-    box-shadow: -4px -3px 14px 14px rgba(29, 28, 28, 0.377);
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(29, 28, 28, 0.13);
+    -moz-box-shadow: -3px -2px 14px 14px rgba(29, 28, 28, 0.13);
+    box-shadow: -4px -3px 14px 14px rgba(29, 28, 28, 0.13);
     background-color: white;
 }
 *{

@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.slick-prev {
+  left: -15 !important;
+  z-index: 100 !important;
+}
+.slick-prev:before {
+  content: "" !important;
+}
+.slick-next {
+  right: -15 !important;
+  z-index: 100 !important;
+}
+.slick-next:before {
+  content: "" !important;
+}
+
+.center .slick-center h3 {
+  opacity: 1;
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/* h3 {
+  background: #5f9ea0;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+} */
