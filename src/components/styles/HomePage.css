@@ -1,0 +1,33 @@
+.introimgdiv{
+    display: flex;
+    width: 60%;
+    margin:auto;
+    justify-content: space-between;
+}
+.introimg{
+    width: 13%;
+}
+.vidbg{
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    background-image: url(https://mailtrap.io/wp-content/uploads/2021/05/img__homepage-964x574.png);
+    background-size: 100% 100%;
+}
+.trustedbyimgdiv{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content: space-between;
+}
+.trustedbyimg{
+    width: 8%;
+}
+.FAQ{
+    border-radius: 15px;
+    background-color:white;
+    height:280px;
+    width:475px;
+    padding:3rem 2rem 5rem 2.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
