@@ -3,7 +3,11 @@ import "../styles/HomePage.css";
 
 export default function TrustedBy() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#f9f9f7" }}>
+      <br />
+      <br />
+      <br />
+      <br />
       <Text fontSize="4xl" fontWeight="800" textAlign="center">
         Trusted by over 900,000 devs, QAs, and
       </Text>
@@ -41,6 +45,11 @@ export default function TrustedBy() {
           alt=""
         />
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
