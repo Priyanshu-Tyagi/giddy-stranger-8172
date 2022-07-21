@@ -72,35 +72,39 @@ export default function Navbar() {
             {/* EMAIL API NAVITEM */}
 
             <Menu>
-              <MenuButton
-                variant="ghost"
-                mx={1}
-                py={[1, 2, 2]}
-                px={4}
-                borderRadius={5}
-                _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
-                aria-label="Courses"
-                fontWeight="normal"
-              >
-                <NavLink to="/email-api">Email API</NavLink>
-              </MenuButton>
+              <NavLink to="/email-api">
+                <MenuButton
+                  variant="ghost"
+                  mx={1}
+                  py={[1, 2, 2]}
+                  px={4}
+                  borderRadius={5}
+                  _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
+                  aria-label="Courses"
+                  fontWeight="normal"
+                >
+                  Email API
+                </MenuButton>
+              </NavLink>
             </Menu>
 
             {/* PRICING NAVITEM */}
 
             <Menu>
-              <MenuButton
-                variant="ghost"
-                mx={1}
-                py={[1, 2, 2]}
-                px={4}
-                borderRadius={5}
-                _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
-                aria-label="Courses"
-                fontWeight="normal"
-              >
-                <NavLink to="/pricing">Pricing</NavLink>
-              </MenuButton>
+              <NavLink to="/pricing">
+                <MenuButton
+                  variant="ghost"
+                  mx={1}
+                  py={[1, 2, 2]}
+                  px={4}
+                  borderRadius={5}
+                  _hover={{ color: useColorModeValue("gray.500", "gray.500") }}
+                  aria-label="Courses"
+                  fontWeight="normal"
+                >
+                  Pricing
+                </MenuButton>
+              </NavLink>
             </Menu>
 
             {/* RESOURCES NAVITEM */}
