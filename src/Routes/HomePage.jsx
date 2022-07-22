@@ -33,11 +33,8 @@ export default function HomePage(){
             <br/>
             <SimpleSlider/>
             <TrustedBy/> 
-            <CreateFreeAccount/>
-            <br/>
-            <br/>
-            <br/>  
             <FrequentlyAskedQuestions/>
+            <CreateFreeAccount/>
             <br/>
             <br/>
             <br/>           
