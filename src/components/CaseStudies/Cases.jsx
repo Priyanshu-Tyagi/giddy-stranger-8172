@@ -106,7 +106,7 @@ export default function Cases() {
                 >
                   <img
                     width="100%"
-                    src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1-2-1.svg"
+                    src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1.svg"
                     alt="741"
                   />
                 </Button>
@@ -143,7 +143,7 @@ export default function Cases() {
                 >
                   <img
                     width="100%"
-                    src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1-2-1.svg"
+                    src="https://mailtrap.io/wp-content/uploads/2021/09/Featured-Image1-1.svg"
                     alt="741"
                   />
                 </Button>
