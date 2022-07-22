@@ -20,6 +20,10 @@ export default function LatestPosts() {
       <br />
       <br />
 
+      <Text textAlign="center" fontSize="1.3rem" fontWeight="800">
+        The Lastest Posts
+      </Text>
+
       {/* Cards */}
 
       <br />
