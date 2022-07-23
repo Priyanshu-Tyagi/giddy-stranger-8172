@@ -5,10 +5,12 @@ import Testimonials from "../components/EmailAPI/Testimonials";
 import WeHelpYouSwitch from "../components/EmailAPI/WeHelpYouSwitch";
 import WhyUse from "../components/EmailAPI/WhyUse";
 import Footer from "../components/Footer"
+import Navbar from "../components/Navbar";
 
 export default function EmailAPI() {
     return (
         <div>
+            <Navbar/>
             <Explanation/>
             <br/>
             <br/>
