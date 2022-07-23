@@ -8,10 +8,12 @@ import Uses from "../components/HomePage/MailtrapUses";
 import ModalWithVideo from "../components/HomePage/ModalwithVideo";
 import Setup from "../components/HomePage/Setup";
 import TrustedBy from "../components/HomePage/TrustedBy";
+import Navbar from "../components/Navbar";
 
 export default function HomePage(){
     return (
         <div >
+            <Navbar/>
             <br/>
             <br/>
             <Intro/>
