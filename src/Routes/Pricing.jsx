@@ -3,10 +3,12 @@ import ChooseAPlan from "../components/Pricing/ChooseAPlan";
 import StartNow2 from "../components/Pricing/StartNow2";
 import WeOffer from "../components/Pricing/WeOffer";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export default function Pricing() {
     return (
         <div>
+            <Navbar/>
             <br/>
             <br/>
             <br/>
