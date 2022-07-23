@@ -4,10 +4,12 @@ import MyTabs from "../components/Blog/MyTabs";
 import SearchBar from "../components/Blog/SearchBar";
 import StartNow2 from "../components/Blog/StartNow2";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export default function Blog() {
   return (
     <div>
+      <Navbar/>
       <br />
       <br />
       <br />
