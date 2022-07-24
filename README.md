@@ -18,7 +18,7 @@
 ##### 6. Pricing
 
 # Landing Page
-- This the landing page of Mailtrap.
+##### This the landing page of Mailtrap.
 
 ![image](https://drive.google.com/uc?export=view&id=1RYY6nNxmS8j-NsbFC59hgmQ-rHQumkrv)
 
